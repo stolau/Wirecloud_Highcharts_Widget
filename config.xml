@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="whatever" name="HighchartsWidget" version="0.1.8">
+    <details>
+        <title>Highcharts Widget</title>
+        <homepage>https://github.com/wirecloud-fiware/quick-start-development-tutorial</homepage>
+        <authors>Pekka Okkonen</authors>
+        <contributors>Pekka Okkonen</contributors>
+        <email>email</email>
+        <image>images/graph.png</image> <!-- 170x80 -->
+        <description>Self made highcharts widget</description>
+        <longdescription>README.md</longdescription>
+        <license>Apache License 2.0</license>
+        <licenseurl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseurl>
+        <doc>doc/developer-guide.md</doc>
+    </details>
+
+    <wiring>
+        <inputendpoint
+            name="Data"
+            label="Data"
+            type="text" />
+    </wiring>
+
+    <contents src="index.html" useplatformstyle="true"/>
+    <rendering width="5" height="24"/>
+</widget>
